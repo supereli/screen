@@ -1,0 +1,8 @@
+chdir /home/eli                                                                                      ubuntu@ip-172-31-0-119:/home/eli$ 
+screen -t Master                                                                                     
+split -v                                                                                             
+focus right                                                                                          
+screen -t Working                                                                                    
+focus left                                                                                           
+                                                                                                     
+bind ' ' windowlist -b
